@@ -1,6 +1,6 @@
 import java.lang.reflect.Array;
 import java.util.*;
-public class Test {
+public class                                                                                                 Test {
     public static int[] func(int[] arr) {
     int left=0;
     int right=arr.length-1;

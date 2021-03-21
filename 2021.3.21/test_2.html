@@ -1,0 +1,54 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>注册页面</title>
+    </head>
+    <script>
+        function myck(type) {
+            var inputUsername = document.getElementById("username");
+            var inputPwd = document.getElementById("pwd");
+            var inputConpwd = document.getElementById("conpwd")
+            if(type == 1) {
+                // 提交操作，非空效验
+                if(inputUsername.value==""){
+                    alert("请先输入用户名！");
+                    return false;
+                }
+                if(inputPwd.value==""){
+                    alert("请先输入密码！");
+                    return false;
+                }
+                if(inputConpwd.value==""){
+                    alert("请先确认密码！");
+                    return false;
+                }
+                // 提交操作，确认密码是否一致
+                if(inputPwd.value != inputConpwd.value) {
+                    alert("请确认密码是否一致！");
+                    return false;
+                }else {
+                    alert("恭喜：操作成功");
+                }
+            }else if(type == 2) {
+                if(confirm("是否确认清空")){
+                    // 清空数据
+                    inputUsername.value = "";
+                    inputPwd.value = "";
+                    inputConpwd.value = "";
+                }
+            }
+        }
+    </script>
+    <div style="text-align: center;margin-top: 100px;">
+        <h1>注册</h1>
+        <div style="margin-left: -20px">
+            &nbsp;&nbsp;&nbsp;&nbsp;用户名: <input id="username" name="uname" type="text"><p></p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码: <input id="pwd" name="password" type="password"><p></p>
+            确认密码: <input id="conpwd" name="conpassword" type="password"><p></p>
+        </div>
+        <div>
+            <input type="button" value=" 提 交 " onclick="myck(1)">
+            <input type="button" value=" 清 空 " onclick="myck(2)">
+        </div>
+    </div>
+</html>
