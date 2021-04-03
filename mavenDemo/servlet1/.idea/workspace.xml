@@ -6,12 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46371119-849c-42b5-b3b3-614497f5cd65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CalcServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CalcServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet1.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet1.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlet1/WEB-INF/classes/CalcServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlet1/WEB-INF/classes/CalcServlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="46371119-849c-42b5-b3b3-614497f5cd65" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +138,7 @@
       <updated>1617102023433</updated>
       <workItem from="1617102026619" duration="5757000" />
       <workItem from="1617109369873" duration="677000" />
+      <workItem from="1617110843589" duration="3000" />
     </task>
     <servers />
   </component>
