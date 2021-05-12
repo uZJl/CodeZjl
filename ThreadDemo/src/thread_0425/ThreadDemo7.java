@@ -24,15 +24,15 @@ public class ThreadDemo7 {
     }
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        //MyCallable
+        //1.创建一个 Callable
         MyCallable callable = new MyCallable();
-        //FutureTask
+        //2.创建一个 FutureTask 对象来接收返回值
         FutureTask<Integer> futureTask = new FutureTask<>(callable);
-
+        //3.创建 Thread
         Thread thread = new Thread(futureTask);
-
+        // 启动线程
         thread.start();
-
+        // 得到线程执行结果
         int result = futureTask.get();
 
         System.out.println(Thread.currentThread().getName() + " " + result);
