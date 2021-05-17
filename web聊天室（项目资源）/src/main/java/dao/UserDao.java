@@ -42,12 +42,12 @@ public class UserDao {
                 java.sql.Timestamp lastLogout = rs.getTimestamp("lastLogout");
                 u.setLastLogout(new Date(lastLogout.getTime()));
             }
+            return u;
         } catch (Exception e){
             throw new AppException("查询用户账号异常",e);
         } finally {
             //5.释放异常
             Util.close(c,ps,rs);
         }
-        return
     }
 }
