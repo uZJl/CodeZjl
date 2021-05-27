@@ -96,6 +96,5 @@ public class Single6 {
             }
         });
         t2.start();
-
     }
 }
