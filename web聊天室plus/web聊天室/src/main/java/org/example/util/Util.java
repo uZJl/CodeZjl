@@ -28,9 +28,11 @@ public class Util {
         //设置json序列化/反序列化的日期格式
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         M.setDateFormat(df);
-        DS.setURL("jdbc:mysql://localhost:3306/java_chatroom");
+        DS.setURL("jdbc:mysql://172.21.0.17:3306/java_chatroom");
+        //DS.setURL("jdbc:mysql://localhost:3306/java_chatroom");
         DS.setUser("root");
-        DS.setPassword("0920");
+        DS.setPassword("12345678");
+        //DS.setPassword("0920");
         DS.setUseSSL(false);
         DS.setCharacterEncoding("UTF-8");//解决插入修改数据，如果是中文，乱码的问题
     }
