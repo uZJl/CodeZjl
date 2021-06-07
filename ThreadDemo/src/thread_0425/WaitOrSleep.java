@@ -22,6 +22,7 @@ public class WaitOrSleep {
         },"t1");
         t1.start();
 
+        
         Thread.sleep(1000);
         //主线程试图获取锁‘
         synchronized (lock) {
