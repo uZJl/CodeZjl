@@ -15,7 +15,11 @@ public class App {
                 new ClassPathXmlApplicationContext("beans.xml");
         LoginController loginController = context.getBean(LoginController.class);
 
-        loginController.sayHi();
+//        loginController.sayHi();
+
+        LoginController loginController1 = context.getBean(LoginController.class);
+
+        System.out.println(loginController==loginController1);
 //        User user = (User)context.getBean("user1");
 //        System.out.println(user);
 //

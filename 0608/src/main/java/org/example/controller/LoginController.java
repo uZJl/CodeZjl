@@ -5,6 +5,7 @@ import org.example.model.User;
 import org.example.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 /**
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 @Getter
+@Scope("prototype")
 public class LoginController {
 
     //查询 第一种依赖注入的方式 属性注入
