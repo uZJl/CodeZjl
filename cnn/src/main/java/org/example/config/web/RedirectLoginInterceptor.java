@@ -1,30 +1,25 @@
-package com.example.demo.config.interceptor;
+package org.example.config.web;
 
-import com.example.demo.model.User;
-import org.springframework.http.HttpStatus;
+import org.example.model.User;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- * Created by JiaLe on 2021/6/13 15:05
- */
-public class LoginInterceptor implements HandlerInterceptor {
+public class RedirectLoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        //获取session，如果获取不到，返回null
         HttpSession session = request.getSession(false);
-
-        if (session != null) {
-            User user = (User)session.getAttribute("user");
-            if (user != null) {
+        if(session != null){
+            User user = (User) session.getAttribute("user");
+            if(user != null){
                 return true;
             }
         }
-        response.setStatus(HttpStatus.UNAUTHORIZED.value());
+        //前端敏感资源，没有登录时，直接重定向到登录页面即可
+        response.sendRedirect("/views/login.html");
         return false;
     }
-
-
 }
