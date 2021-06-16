@@ -103,4 +103,6 @@
         </foreach>
     </insert>
 
+    <select id="selectByCondition" resultMap="BaseResultMap"
+
 </mapper>

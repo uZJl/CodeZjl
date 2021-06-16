@@ -19,4 +19,6 @@ public interface ArticleMapper {
     List<Article> selectAll();
 
     int delectByUsername(String s);
+
+    int updateById(Article article);
 }

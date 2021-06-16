@@ -32,4 +32,18 @@
         delete article from article,user where user.id=article.id
             and user.username=#{username}
     </delete>
+
+    <update id="updateById" parameterType="org.example.model.Article">
+        update article
+            set
+                <trim suffixOverrides=",">
+                    <if test="title != null">
+                        title=#{title},
+                    </if>
+                    <if test="content != null">
+                        content=#{content},
+                    </if>
+                </trim>
+        where id=#{id}
+    </update>
 </mapper>

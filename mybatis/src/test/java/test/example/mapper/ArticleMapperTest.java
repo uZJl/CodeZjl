@@ -33,4 +33,12 @@ public class ArticleMapperTest {
     public void delectByUsername(){
         int n = articleMapper.delectByUsername("c");
     }
+
+    @Test
+    public void updateById(){
+        Article article = new Article();
+        article.setId(2);
+        article.setTitle("abc");
+        int n = articleMapper.updateById(article);
+    }
 }
