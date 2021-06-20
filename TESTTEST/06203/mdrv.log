@@ -1,0 +1,39 @@
+虚拟用户脚本已于 : 2021/6/20 16:59:00 启动
+正在开始操作 vuser_init。
+Windows 8 版 LoadRunner 12.0.0 的 Web Turbo 重播; 内部版本 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+运行模式: HTML  	[MsgId: MMSG-26993]
+运行时设置文件: "F:\CodeZjl\TESTTEST\06203\\default.cfg"  	[MsgId: MMSG-27141]
+正在结束操作 vuser_init。
+正在运行 Vuser...
+正在开始迭代 1。
+每个服务器的最大并发连接数: 6  	[MsgId: MMSG-26989]
+正在开始操作 Action。
+Action.c(4): web_url("WebTours") 已启动  	[MsgId: MMSG-26355]
+Action.c(4): 在“http://127.0.0.1:1080/WebTours/”中检测到非资源“http://127.0.0.1:1080/WebTours/header.html”  	[MsgId: MMSG-26574]
+Action.c(4): 在“http://127.0.0.1:1080/WebTours/”中检测到非资源“http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true”  	[MsgId: MMSG-26574]
+Action.c(4): 在 HTML“http://127.0.0.1:1080/WebTours/header.html”中找到资源“http://127.0.0.1:1080/WebTours/images/hp_logo.png”  	[MsgId: MMSG-26659]
+Action.c(4): 在 HTML“http://127.0.0.1:1080/WebTours/header.html”中找到资源“http://127.0.0.1:1080/WebTours/images/webtours.png”  	[MsgId: MMSG-26659]
+Action.c(4): 在“http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true”中检测到非资源“http://127.0.0.1:1080/cgi-bin/nav.pl?in=home”  	[MsgId: MMSG-26574]
+Action.c(4): 在“http://127.0.0.1:1080/cgi-bin/welcome.pl?signOff=true”中检测到非资源“http://127.0.0.1:1080/WebTours/home.html”  	[MsgId: MMSG-26574]
+Action.c(4): 在 HTML“http://127.0.0.1:1080/cgi-bin/nav.pl?in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/mer_login.gif”  	[MsgId: MMSG-26659]
+Action.c(4): web_url("WebTours") 已成功，10072 个正文字节，2371 个标头字节，24 个分块开销字节  	[MsgId: MMSG-26385]
+Action.c(13): 集合 login_zvous
+Action.c(17): 通知: 事务 "login_transaction" 已启动。
+Action.c(19): web_submit_form("login.pl") 已启动  	[MsgId: MMSG-26355]
+Action.c(19): 将表单提交到“http://127.0.0.1:1080/cgi-bin/login.pl”，目标帧=“body”  	[MsgId: MMSG-27978]
+Action.c(19): 在“http://127.0.0.1:1080/cgi-bin/login.pl”中检测到非资源“http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home”  	[MsgId: MMSG-26574]
+Action.c(19): 在“http://127.0.0.1:1080/cgi-bin/login.pl”中检测到非资源“http://127.0.0.1:1080/cgi-bin/login.pl?intro=true”  	[MsgId: MMSG-26574]
+Action.c(19): 在 HTML“http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/flights.gif”  	[MsgId: MMSG-26659]
+Action.c(19): 在 HTML“http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/itinerary.gif”  	[MsgId: MMSG-26659]
+Action.c(19): 在 HTML“http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/in_home.gif”  	[MsgId: MMSG-26659]
+Action.c(19): 在 HTML“http://127.0.0.1:1080/cgi-bin/nav.pl?page=menu&in=home”中找到资源“http://127.0.0.1:1080/WebTours/images/signoff.gif”  	[MsgId: MMSG-26659]
+Action.c(19): web_submit_form("login.pl") 已成功，5779 个正文字节，2031 个标头字节，36 个分块开销字节  	[MsgId: MMSG-26385]
+正在结束操作 Action。
+正在结束迭代 1。
+正在结束 Vuser...
+正在开始操作 vuser_end。
+错误: Vuser 已启动事务 "login_transaction"，但并未到达相应的结束事务语句。事务以“失败”状态自动结束。
+通知: 事务“login_transaction”以“Fail”状态结束 (持续时间: 0.1227 浪费的时间: 0.0036)。
+通知: 事务“login_transaction”具有 0 条错误消息。
+正在结束操作 vuser_end。
+Vuser 已终止。

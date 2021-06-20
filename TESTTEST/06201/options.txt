@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\CodeZjl\TESTTEST\06201
+-ID:\LR\include
+-ef:\codezjl\testtest\06201\\logfile.log
+f:\codezjl\testtest\06201\\combined_06201.c
+f:\codezjl\testtest\06201\\pre_cci.c

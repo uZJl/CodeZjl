@@ -1,0 +1,61 @@
+****** Start Log Message ******
+Web Recorder version : 12.0.2739.0 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.0.2739.0
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 26 ******
+GET /api/toolbox/geturl.php?h=EE87B9689F789C6B0D845A32D1BAABFA&v=10.3.0.4581&r=0000_sogou_pinyin_103a HTTP/1.1
+User-Agent: SOGOU_UPDATER
+Host: config.pinyin.sogou.com
+Accept: */*
+
+
+$$$$$$ Request Header For Transaction With Id 26 Ended $$$$$$
+
+****** Response Header For Transaction With Id 26 ******
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 20 Jun 2021 08:45:02 GMT
+Content-Type: application/octet-stream
+Content-Length: 0
+Connection: keep-alive
+
+
+$$$$$$ Response Header For Transaction With Id 26 Ended $$$$$$
+
+****** Response Body For Transaction With Id 26 ******
+
+$$$$$$ Response Body For Transaction With Id 26 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 26 ****** (Location Flag : tFlagInsertEnd, Location ID : 26)
+	web_url("geturl.php",
+		"URL=http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=EE87B9689F789C6B0D845A32D1BAABFA&v=10.3.0.4581&r=0000_sogou_pinyin_103a",
+		"Resource=1",
+		"RecContentType=application/octet-stream",
+		"Referer=",
+		"Snapshot=t1.inf",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 26 Ended $$$$$$
+

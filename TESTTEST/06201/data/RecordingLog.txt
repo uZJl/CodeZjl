@@ -1,0 +1,215 @@
+[API Trapper      (25f0:3b14)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (25f0:3cb8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (25f0:3cb8)] Load Network Traffic Analyzers:
+[Network Analyzer (25f0:3cb8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (25f0:3cb8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (25f0:3cb8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (25f0:3cb8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (25f0:3cb8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (25f0:3cb8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (25f0:3cb8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (25f0:3cb8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (25f0:3ed0)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3e70)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3e70)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (25f0:3cb8)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (25f0:3ed0)] "GET /WebTours/"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Client -> Server @ : 309 bytes (Service=HTTP)
+[Network Analyzer (25f0:3cb8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /WebTours/header.html"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Client -> Server @ : 362 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Client -> Server @ : 373 bytes (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Client -> Server @ : 393 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Client -> Server @ : 394 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3c18)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3c18)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Client -> Server @ : 414 bytes (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /WebTours/home.html"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Client -> Server @ : 410 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /favicon.ico"   
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Client -> Server @ : 251 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (25f0:3ed0)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (25f0:3ffc)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3c18)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3df0)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ff8)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:2190)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3d34)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3df0)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (25f0:3c18)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (25f0:3ffc)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (25f0:3ff8)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (25f0:3ed0)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (25f0:3d34)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (25f0:3ed0)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (25f0:2190)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (25f0:3ffc)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ffc)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 10)  PROXIED!
+[API Trapper      (3db4:3f00)] Recording in 32-bit mode: E:\SogouInput\SogouExe\SogouExe.exe
+[Network Analyzer (25f0:3ed0)]   (Sid:  9) Connection Terminated (by Client)
+[API Trapper      (3a6c:3c6c)] Recording in 32-bit mode: E:\SogouInput\10.3.0.4581\SGTool.exe
+[Network Analyzer (25f0:2f34)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (3a6c: ccc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3a6c: ccc)] Load Network Traffic Analyzers:
+[Network Analyzer (3a6c: ccc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3a6c: ccc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3a6c: ccc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3a6c: ccc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3a6c: ccc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3a6c: ccc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3a6c: ccc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3a6c: ccc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3a6c: fc8)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:2190)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:2190)] Request Connection: Remote Server @ 204.79.197.203:80   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (25f0:3ed0)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 11) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 11) Server -> Client : 465 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 11) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 11) Server -> Client : 464 bytes  (Service=HTTP)
+[Network Analyzer (25f0:2190)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:2190)] Request Connection: Remote Server @ 117.175.95.165:80   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (25f0:3ed0)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 12) Client -> Server @ : 176 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 12) Server -> Client : 1305 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2001.crl"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 12) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 12) Server -> Client : 1305 bytes  (Service=HTTP)
+[Net An. Error    (25f0:2f34)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:3ed0)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (25f0: c88)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: c88)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (25f0:21ac)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (25f0:21ac)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:3b30)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ed0)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (25f0:3b30)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (25f0:29b8)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (25f0:29b8)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:3ed0)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (3a6c: ccc)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (3a6c: ccc)] Request Connection: Remote Server @ 39.156.167.35:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (3a6c: fc8)] "GET /api/toolbox/geturl.php?h=EE87B9689F789C6B0D845A32D1BAABFA&v=10.3.0.4581&r=0000_sogou_pinyin_103a"   
+[Network Analyzer (3a6c: fc8)]   (Sid:  1) Client -> Server @ : 185 bytes (Service=HTTP)
+[Network Analyzer (3a6c: fc8)]   (Sid:  1) Server -> Client : 154 bytes  (Service=HTTP)
+[Network Analyzer (3a6c: fc8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (25f0: 760)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: a60)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: 760)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (25f0: a60)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 16)  PROXIED!
+[Net An. Error    (25f0:2fd0)]   (Sid: 15) SSL handshake with remote server Failed!
+[Net An. Error    (25f0:2d28)]   (Sid: 16) SSL handshake with remote server Failed!
+[Network Analyzer (25f0: 760)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: a60)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: a60)] Request Connection: Remote Server @ 223.119.149.254:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (25f0: 760)] Request Connection: Remote Server @ 223.119.149.254:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (25f0: 574)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (25f0:147c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[User action                 ] StartTransactionEvent login_transaction [Network Analyzer (25f0:3ebc)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ebc)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (25f0:3ed0)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 19) Client -> Server @ : 170 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 19) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (25f0:2460)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:2460)] Request Connection: Remote Server @ 104.18.24.243:80   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (25f0:3ed0)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCE2sABplxS2KOeMlNPQAAAAAGmXE%3D"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 20) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 20) Server -> Client : 379 bytes  (Service=HTTP)
+[Net An. Error    (25f0: 574)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (25f0:147c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (25f0:3ed0)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (25f0: a60)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: a60)] Request Connection: Remote Server @ 23.32.237.56:80   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (25f0:3ed0)] "GET /pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2001.crl"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 5808 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 1452 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 5808 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 2904 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 21) Server -> Client : 746 bytes  (Service=HTTP)
+[Network Analyzer (25f0: 760)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: 760)] Request Connection: Remote Server @ 223.119.149.254:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (25f0: 670)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (25f0: 670)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES256-GCM-SHA384)
+[Web Request      (25f0:3ed0)] "GET /fwlink/?linkid=2133855&bucket=11&customertype=1"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 22) Client -> Server @ : 868 bytes (SSL)(Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid: 22) Server -> Client : 497 bytes (SSL) (Service=HTTP)
+[Network Analyzer (25f0:3ebc)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ebc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (25f0:3b30)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (25f0:3ed0)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 23) Client -> Server @ : 617 bytes (Service=HTTP)
+[Network Analyzer (25f0:3b30)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (25f0:3ed0)]   (Sid: 23) Server -> Client : 688 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /cgi-bin/nav.pl?username=jojo&password=0920"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 23) Client -> Server @ : 419 bytes (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /cgi-bin/error.pl?error=badPassword"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 24) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 24) Server -> Client : 1253 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 23) Server -> Client : 1765 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 24) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (25f0:3ed0)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (25f0:3ed0)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (25f0: 760)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: a60)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0: a60)] Request Connection: Remote Server @ 204.79.197.219:443   (Service=)  (Sid= 25)  PROXIED!
+[Net An. Error    (25f0:32f4)]   (Sid: 25) SSL handshake with remote server Failed!
+[Network Analyzer (25f0:3ed0)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ef4)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3e70)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3cb8)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ebc)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ef4)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (25f0:3cb8)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (25f0:3ebc)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (25f0:3ed0)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (25f0:3ed0)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (25f0:3e70)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (25f0:2190)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:2190)] Request Connection: Remote Server @ 13.76.98.223:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (25f0:3cf8)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (25f0:3e70)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (25f0:3ed0)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (25f0:3e70)] Request Connection: Remote Server @ 204.79.197.203:80   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (25f0:3ed0)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 31) Client -> Server @ : 247 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 31) Server -> Client : 473 bytes  (Service=HTTP)
+[Web Request      (25f0:3ed0)] "GET /ocsp/MFQwUjBQME4wTDAJBgUrDgMCGgUABBQZif2SL2Dca2YsM5ZwqY8qkniRuQQUdrhN80RYwiB6jEYlzu51%2FeWrxHcCEzMADi2AkRtvQUCD3VUAAAAOLYA%3D"   
+[Network Analyzer (25f0:3ed0)]   (Sid: 31) Client -> Server @ : 290 bytes (Service=HTTP)
+[Network Analyzer (25f0:3ed0)]   (Sid: 31) Server -> Client : 466 bytes  (Service=HTTP)

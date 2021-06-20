@@ -1,0 +1,5 @@
+GET /api/toolbox/geturl.php?h=EE87B9689F789C6B0D845A32D1BAABFA&v=10.3.0.4581&r=0000_sogou_pinyin_103a HTTP/1.1
+User-Agent: SOGOU_UPDATER
+Host: config.pinyin.sogou.com
+Accept: */*
+

@@ -1,0 +1,32 @@
+[API Trapper      ( 648:2914)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      ( 900:3ca0)] Recording in 64-bit mode: C:\WINDOWS\system32\IESettingSync.exe
+[API Trapper      (3c58:14c0)] Recording in 32-bit mode: E:\SogouInput\SogouExe\SogouExe.exe
+[API Trapper      (2c48:2778)] Recording in 32-bit mode: E:\SogouInput\10.3.0.4581\SGTool.exe
+[Network Analyzer (2c48:3298)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2c48:3298)] Load Network Traffic Analyzers:
+[Network Analyzer (2c48:3298)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2c48:3298)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (2c48:3298)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2c48:3298)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (2c48:3298)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2c48:3298)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2c48:3298)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2c48:3298)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2c48:3c68)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer ( 648:3e50)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 648:3e50)] Load Network Traffic Analyzers:
+[Network Analyzer ( 648:3e50)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 648:3e50)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 648:3e50)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 648:3e50)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 648:3e50)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 648:3e50)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 648:3e50)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 648:3e50)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 648:39e0)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2c48:3298)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2c48:3298)] Request Connection: Remote Server @ 39.156.167.35:80   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (2c48:3c68)] "GET /api/toolbox/geturl.php?h=EE87B9689F789C6B0D845A32D1BAABFA&v=10.3.0.4581&r=0000_sogou_pinyin_103a"   
+[Network Analyzer (2c48:3c68)]   (Sid:  1) Client -> Server @ : 185 bytes (Service=HTTP)
+[Network Analyzer (2c48:3c68)]   (Sid:  1) Server -> Client : 154 bytes  (Service=HTTP)
+[Network Analyzer (2c48:3c68)]   (Sid:  1) Connection Terminated (by Client)
