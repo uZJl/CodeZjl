@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="275c99a8-314f-4a5b-b1ce-ccd56700af82" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="275c99a8-314f-4a5b-b1ce-ccd56700af82" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../0611/src/Main.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sort" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
@@ -85,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623852855677</updated>
       <workItem from="1623852900131" duration="5987000" />
+      <workItem from="1624410874812" duration="25000" />
     </task>
     <servers />
   </component>
@@ -101,11 +100,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="948" y="174" key="FileChooserDialogImpl" timestamp="1623854341215">
+    <state x="948" y="174" key="FileChooserDialogImpl" timestamp="1624410897505">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="948" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1623854341215" />
+    <state x="948" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1624410897505" />
   </component>
 </project>
