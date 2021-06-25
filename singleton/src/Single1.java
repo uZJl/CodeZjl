@@ -13,6 +13,4 @@ public class Single1 {
             return instance;
         }
     }
-
-
 }
