@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-class LURCache{
+class LRUCache{
     static class Node {
         int key;
         int val;
@@ -17,7 +17,7 @@ class LURCache{
     Node tail;
     int k;
     int size;
-    public LURCache(int k) {
+    public LRUCache(int k) {
         this.k = k;
         map = new HashMap<>();
         head = new Node(-1, -1);
@@ -69,8 +69,9 @@ class LURCache{
             addHead(node);
             size++;
             if (size > k) {
-                removeNode(removeLast());
-                map.remove(removeLast().key);
+                Node last = removeLast();
+                removeNode(last);
+                map.remove(last.key);
                 size--;
             }
         } else {
@@ -79,7 +80,7 @@ class LURCache{
         }
     }
 }
-public class LUR {
+public class LRU {
     /**
      * lru design
      * @param operators int整型二维数组 the ops
@@ -88,13 +89,13 @@ public class LUR {
      */
     public int[] LRU (int[][] operators, int k) {
         // write code here
-        LURCache lur = new LURCache(k);
+        LRUCache lru = new LRUCache(k);
         ArrayList<Integer> list = new ArrayList<>();
         for (int[] op : operators) {
             if (op[0] == 1) {
-                lur.set(op[1], op[2]);
+                lru.set(op[1], op[2]);
             } else {
-                list.add(lur.get(op[1]));
+                list.add(lru.get(op[1]));
             }
         }
         int[] arr = new int[list.size()];
