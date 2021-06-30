@@ -1,0 +1,17 @@
+****** Start Log Message ******
+Web Recorder version : 12.0.2739.0 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 12.0.2739.0
+
+****** Analyze segments filter initialization ******

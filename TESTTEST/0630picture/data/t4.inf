@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4.json
+URL1=http://update.googleapis.com/service/update2/json?cup2key=10:392256654&cup2hreq=ffd96a32615ef542970eea7c90a40d9596193518b61e016e9f0d13c6b24ad879
+Total=3
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t4_image.json
+URL2=http://localhost:8080/DBed/image
+FileName3=t4_imageShow.jpg
+URL3=http://localhost:8080/DBed/imageShow?imageId=28
+[ProtocolInfo]
+ProtocolId=QTWeb

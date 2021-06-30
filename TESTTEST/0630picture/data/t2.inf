@@ -1,0 +1,16 @@
+[t2]
+FileName1=t2_index.html
+URL1=http://localhost:8080/DBed/index.html
+Total=6
+ContentType=application/json
+SnapshotXmlFile=snapshot_1.xml
+FileName2=t2_image.json
+URL2=http://localhost:8080/DBed/image
+FileName3=t2_imageShow.png
+URL3=http://localhost:8080/DBed/imageShow?imageId=19
+FileName4=t2_imageShow.png
+URL4=http://localhost:8080/DBed/imageShow?imageId=20
+FileName5=t2_imageShow.png
+URL5=http://localhost:8080/DBed/imageShow?imageId=21
+FileName6=t2_imageShow.jpg
+URL6=http://localhost:8080/DBed/imageShow?imageId=22

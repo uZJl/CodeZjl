@@ -1,0 +1,2 @@
+[Hosts]
+localhost=F:\CodeZjl\TESTTEST\0630Test2\res\localhost_1.eve

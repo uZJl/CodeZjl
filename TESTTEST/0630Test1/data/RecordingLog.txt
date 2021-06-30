@@ -1,0 +1,29 @@
+[API Trapper      (4dc0: c54)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (2570:6080)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (5d8c:48e4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5d8c:28a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5d8c:28a0)] Load Network Traffic Analyzers:
+[Network Analyzer (5d8c:28a0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (5d8c:28a0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (5d8c:28a0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (5d8c:28a0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (5d8c:28a0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (5d8c:28a0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (5d8c:28a0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (5d8c:28a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5d8c:4b74)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (5d8c:28a0)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (5d8c:28a0)] Request Connection: Remote Server @ 203.208.41.34:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (5d8c:28a0)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (5d8c:4fb0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (5d8c:28a0)] Request Connection: Remote Server @ 127.0.0.1:1001 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5d8c:28a0)] Request Connection: Remote Server @ 127.0.0.1:1001 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (5d8c:28a0)] Request Connection: Remote Server @ 127.0.0.1:1001 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (5d8c:28a0)] Request Connection: Remote Server @ 127.0.0.1:1001   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (5d8c:28a0)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (5d8c:28a0)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 8080  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (5d8c:28a0)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (5d8c:2e84)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (5d8c:2e84)]   (Sid:  2) Connection Terminated (by Server)
+[Net An. Warning  (5d8c:28a0)] Request Connection: Remote Server @ 172.217.160.109:443 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10060)
+[Net An. Warning  (5d8c:28a0)] Request Connection: Remote Server @ 172.217.160.109:443 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10060)

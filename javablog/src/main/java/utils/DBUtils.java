@@ -23,7 +23,7 @@ public class DBUtils {
             dataSource = new MysqlDataSource();
             dataSource.setURL("jdbc:mysql://127.0.0.1:3306/java18blog?characterEncoding=utf-8");
             dataSource.setUser("root");
-            dataSource.setPassword("12345678");
+            dataSource.setPassword("0920");
         }
         return dataSource.getConnection();
 

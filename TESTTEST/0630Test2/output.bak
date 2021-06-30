@@ -1,0 +1,22 @@
+虚拟用户脚本已于 : 2021/6/30 18:55:00 启动
+正在开始操作 vuser_init。
+Windows 8 版 LoadRunner 12.0.0 的 Web Turbo 重播; 内部版本 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+运行模式: HTML  	[MsgId: MMSG-26993]
+运行时设置文件: "F:\CodeZjl\TESTTEST\0630Test2\\default.cfg"  	[MsgId: MMSG-27141]
+正在结束操作 vuser_init。
+正在运行 Vuser...
+正在开始迭代 1。
+每个服务器的最大并发连接数: 6  	[MsgId: MMSG-26989]
+正在开始操作 Action。
+Action.c(4): web_add_cookie 已启动  	[MsgId: MMSG-26355]
+Action.c(4): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(6): web_url("index.html") 已启动  	[MsgId: MMSG-26355]
+Action.c(6): 错误 -27794: 连接服务器“127.0.0.1:8888”失败: “[10061] 连接被拒绝”  	[MsgId: MERR-27794]
+Action.c(6): 警告 -26200: 由于上述错误，EXTRARES 指定的资源中至少有一项尚未下载  	[MsgId: MWAR-26200]
+Action.c(6): web_url("index.html") 最高严重级别为“ERROR”，0 个正文字节，0 个标头字节  	[MsgId: MMSG-26388]
+正在结束操作 Action。
+正在结束迭代 1。
+正在结束 Vuser...
+正在开始操作 vuser_end。
+正在结束操作 vuser_end。
+Vuser 已终止。

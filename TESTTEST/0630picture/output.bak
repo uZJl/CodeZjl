@@ -1,0 +1,44 @@
+虚拟用户脚本已于 : 2021/6/30 19:00:16 启动
+正在开始操作 vuser_init。
+Windows 8 版 LoadRunner 12.0.0 的 Web Turbo 重播; 内部版本 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+运行模式: HTML  	[MsgId: MMSG-26993]
+运行时设置文件: "F:\CodeZjl\TESTTEST\0630picture\\default.cfg"  	[MsgId: MMSG-27141]
+正在结束操作 vuser_init。
+正在运行 Vuser...
+正在开始迭代 1。
+每个服务器的最大并发连接数: 6  	[MsgId: MMSG-26989]
+正在开始操作 Action。
+Action.c(4): web_add_cookie 已启动  	[MsgId: MMSG-26355]
+Action.c(4): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(6): web_url("index.html") 已启动  	[MsgId: MMSG-26355]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/css/amazeui.min.css”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/css/app.css”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“https://cdn.jsdelivr.net/npm/vue/dist/vue.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/jquery.min.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/amazeui.min.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/pinto.min.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/img.js”  	[MsgId: MMSG-26659]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/image”(由参数编号 8 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=19”(由参数编号 10 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=20”(由参数编号 12 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=21”(由参数编号 14 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=22”(由参数编号 16 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=28”(由参数编号 18 指定)  	[MsgId: MMSG-26577]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure  	[MsgId: MMSG-26000]
+Action.c(6): 警告 -27776: 在尝试与主机“127.0.0.1”connect 时发生 SSL 协议错误  	[MsgId: MWAR-27776]
+Action.c(6): 警告 -27762: 请求“https://cdn.jsdelivr.net/npm/vue/dist/vue.js”失败  	[MsgId: MWAR-27762]
+Action.c(6): web_url("index.html") 最高严重级别为“warning”，3051678 个正文字节，2825 个标头字节，2478 个分块开销字节  	[MsgId: MMSG-26387]
+Action.c(21): 集合 upload_zvous
+Action.c(23): 通知: 事务 "uploat_transaction" 已启动。
+Action.c(25): web_submit_data("image") 已启动  	[MsgId: MMSG-26355]
+Action.c(25): 错误 -26488: 无法获取有关提交的文件“F:\CodeZjl\TESTTEST\0630picture\555.jpeg”的信息:_stat32 返回代码=-1，错误号=2 [No such file or directory]。使用空文件  	[MsgId: MERR-26488]
+Action.c(25): 中止 URL=“http://localhost:8080/DBed/image”的挂起下载(RelFrameId=1，内部 ID=15)  	[MsgId: MMSG-27654]
+Action.c(25): web_submit_data("image") 最高严重级别为“ERROR”，0 个正文字节，0 个标头字节  	[MsgId: MMSG-26388]
+Action.c(25): 通知: 事务“uploat_transaction”以“Fail”状态结束 (持续时间: 0.0345 浪费的时间: 0.0004)。
+Action.c(25): 通知: 事务“uploat_transaction”具有 0 条错误消息。
+正在结束操作 Action。
+正在结束迭代 1。
+正在结束 Vuser...
+正在开始操作 vuser_end。
+正在结束操作 vuser_end。
+Vuser 已终止。
