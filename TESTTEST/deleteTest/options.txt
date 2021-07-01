@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IF:\CodeZjl\TESTTEST\deleteTest
+-ID:\LR\include
+-ef:\codezjl\testtest\deletetest\\logfile.log
+f:\codezjl\testtest\deletetest\\combined_deleteTest.c
+f:\codezjl\testtest\deletetest\\pre_cci.c

@@ -1,0 +1,352 @@
+[API Trapper      ( 96c:1be8)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (2500: 69c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (2478: 344)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2478: 408)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2478: 408)] Load Network Traffic Analyzers:
+[Network Analyzer (2478: 408)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2478: 408)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (2478: 408)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2478: 408)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (2478: 408)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (2478: 408)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2478: 408)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2478: 408)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2478:2a7c)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (2478:2a7c)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid:  1) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (2478:2a7c)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid:  4) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid:  5) Client -> Server @ : 234 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/index.html"   
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Client -> Server @ : 821 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 131 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  1) Server -> Client : 107 bytes 
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (2478:2a7c)] "CONNECT 127.0.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid:  6) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid:  7) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2478:2a7c)]   (Sid:  7) Server -> Client : 107 bytes 
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/image"   
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Client -> Server @ : 627 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&_=1625099694804"   
+[Network Analyzer (2478:2a7c)]   (Sid:  8) Client -> Server @ : 517 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 1498 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  8) Server -> Client : 153 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=19"   
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Client -> Server @ : 672 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=20"   
+[Network Analyzer (2478:2a7c)]   (Sid:  3) Client -> Server @ : 672 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://202.200.207.3/"   
+[Network Analyzer (2478:2a7c)]   (Sid:  9) Client -> Server @ : 326 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  3) Server -> Client : 5157 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  9) Server -> Client : 2101 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 13958 bytes  (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=21"   
+[Network Analyzer (2478:2a7c)]   (Sid: 10) Client -> Server @ : 672 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478:2a7c)]   (Sid: 10) Server -> Client : 1679 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=22"   
+[Network Analyzer (2478:2a7c)]   (Sid: 11) Client -> Server @ : 672 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=28"   
+[Network Analyzer (2478:2a7c)]   (Sid: 12) Client -> Server @ : 672 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=29"   
+[Network Analyzer (2478:2a7c)]   (Sid: 13) Client -> Server @ : 672 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 12) Server -> Client : 8651 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 11) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 13) Server -> Client : 8651 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 11) Server -> Client : 11628 bytes  (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=30"   
+[Network Analyzer (2478:2a7c)]   (Sid:  3) Client -> Server @ : 672 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=32"   
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Client -> Server @ : 672 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (2478:2a7c)]   (Sid:  3) Server -> Client : 8651 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=34"   
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 672 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  2) Server -> Client : 11590 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16357 bytes  (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (2478:2a7c)] "CONNECT mtalk.google.com:5228"   
+[Network Analyzer (2478:2a7c)]   (Sid: 15) Client -> Server @ : 101 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT android.clients.google.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 16) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/favicon.ico"   
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 658 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "CONNECT android.clients.google.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 17) Client -> Server @ : 248 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 834 bytes  (Service=HTTP)
+[Network Analyzer (2478:12a8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2478: 870)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[API Trapper      (24ec:3094)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer ( 96c:2b48)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 96c:2b48)] Load Network Traffic Analyzers:
+[Network Analyzer ( 96c:2b48)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 96c:2b48)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 96c:2b48)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 96c:2b48)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 96c:2b48)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 96c:2b48)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 96c:2b48)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 96c:2b48)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 96c:15d4)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer ( 96c:13f0)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer ( 96c:13f0)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 96c:2b48)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      ( 96c:15d4)] "GET http://pki.goog/gsr2/GTS1O1.crt"   
+[Network Analyzer ( 96c:15d4)]   (Sid:  1) Client -> Server @ : 145 bytes (Service=HTTP)
+[Network Analyzer ( 96c:2b48)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 96c:15d4)] "GET http://cacerts.rapidssl.com/RapidSSLRSACA2018.crt"   
+[Network Analyzer ( 96c:15d4)]   (Sid:  2) Client -> Server @ : 175 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "CONNECT update.googleapis.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 18) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 18) Server -> Client : 107 bytes 
+[Network Analyzer (2478:2a7c)]   (Sid:  6) Server -> Client : 753 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (2478:196c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer ( 96c:2b48)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer ( 96c:2b48)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT 0.1.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid: 19) Client -> Server @ : 212 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 19) Server -> Client : 761 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 19) Connection Terminated (by Server)
+[Web Request      ( 96c:15d4)] "GET http://pki.goog/gsr2/GTS1O1.crt"   
+[Network Analyzer ( 96c:15d4)]   (Sid:  3) Client -> Server @ : 145 bytes (Service=HTTP)
+[API Trapper      (2a94: 8b4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 96c:15d4)]   (Sid:  2) Server -> Client : 2018 bytes  (Service=HTTP)
+[Net An. Error    (2478: 870)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 20) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 20) Server -> Client : 107 bytes 
+[Network Analyzer (2478: 494)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478: 494)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2478:2a7c)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (2478:2a7c)] "HEAD http://vxltbuielc/"   
+[Network Analyzer (2478:2a7c)]   (Sid: 21) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (2478:2a7c)] "HEAD http://ehvwtfsuudivkt/"   
+[Network Analyzer (2478:2a7c)]   (Sid: 22) Client -> Server @ : 253 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "HEAD http://fgndpltxmk/"   
+[Network Analyzer (2478:2a7c)]   (Sid: 23) Client -> Server @ : 245 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 24) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 24) Server -> Client : 107 bytes 
+[Network Analyzer (2478:3480)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:3480)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT 127.0.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid: 25) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT ssl.gstatic.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 26) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 26) Server -> Client : 107 bytes 
+[Network Analyzer (2478:2a7c)]   (Sid: 25) Server -> Client : 753 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (2478:34e0)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      ( 96c:15d4)] "GET http://pki.goog/gsr2/GTS1O1.crt"   
+[Network Analyzer ( 96c:15d4)]   (Sid:  2) Client -> Server @ : 145 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "CONNECT 0.1.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid: 27) Client -> Server @ : 212 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 27) Server -> Client : 761 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 27) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (2478:2a7c)]   (Sid: 22) Server -> Client : 737 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 22) Connection Terminated (by Server)
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 28) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 21) Server -> Client : 737 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (2478:2a7c)]   (Sid: 23) Server -> Client : 737 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (2478:2a7c)]   (Sid: 28) Server -> Client : 107 bytes 
+[Network Analyzer (2478:3504)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:3504)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid: 28) Connection Terminated (by Client)
+[Net An. Error    (2478:12a8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid:  1) Connection Terminated (by Server)
+[Net An. Error    (2478:196c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 29) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 29) Server -> Client : 107 bytes 
+[Network Analyzer (2478:351c)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:351c)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (2478:2a7c)]   (Sid:  5) Server -> Client : 789 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid:  5) Connection Terminated (by Server)
+[User action                 ] RendezvousEvent upload_zvous [Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (2478:2a7c)]   (Sid: 15) Server -> Client : 789 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 15) Connection Terminated (by Server)
+[Web Request      (2478:2a7c)] "CONNECT 127.0.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid: 30) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( 96c:15d4)]   (Sid:  1) Server -> Client : 789 bytes  (Service=HTTP)
+[Network Analyzer ( 96c:15d4)]   (Sid:  1) Connection Terminated (by Server)
+[Web Request      (2478:2a7c)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 31) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 30) Server -> Client : 753 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer ( 96c:15d4)]   (Sid:  3) Server -> Client : 789 bytes  (Service=HTTP)
+[Network Analyzer ( 96c:15d4)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (2478:2a7c)] "CONNECT 0.1.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid: 32) Client -> Server @ : 212 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (2478:2a7c)]   (Sid: 32) Server -> Client : 761 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 32) Connection Terminated (by Server)
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 33) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 33) Server -> Client : 107 bytes 
+[Network Analyzer (2478:3548)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:3548)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2478:34e0)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (2478:2a7c)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (2478:2a7c)]   (Sid:  4) Connection Terminated (by Client)
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 34) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 34) Server -> Client : 107 bytes 
+[Network Analyzer (2478:3564)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:3564)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (2478:2a7c)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (2478:2a7c)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer ( 96c:15d4)]   (Sid:  2) Server -> Client : 789 bytes  (Service=HTTP)
+[Network Analyzer ( 96c:15d4)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 35)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 35) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 35) Server -> Client : 107 bytes 
+[Network Analyzer (2478:358c)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:358c)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid: 35) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent upload_transaction [Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 36)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT 127.0.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid: 36) Client -> Server @ : 216 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "POST http://localhost:8080/DBed/image"
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 766 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 16384 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 16384 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 16384 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 16384 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 16384 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 16290 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 180 bytes  (Service=HTTP)
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 37) Client -> Server @ : 238 bytes (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/image"   
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 627 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 1646 bytes  (Service=HTTP)
+[Web Request      (2478:2a7c)] "GET http://localhost:8080/DBed/imageShow?imageId=35"   
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Client -> Server @ : 672 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 37) Server -> Client : 107 bytes 
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 14) Server -> Client : 16357 bytes  (Service=HTTP)
+[Network Analyzer (2478:35b4)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:35b4)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2478:2a7c)]   (Sid: 36) Server -> Client : 753 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 36) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 38)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT 0.1.0.1:1001"   
+[Network Analyzer (2478:2a7c)]   (Sid: 38) Client -> Server @ : 212 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 38) Server -> Client : 761 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 38) Connection Terminated (by Server)
+[Network Analyzer (2478:2a7c)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (2478:2a7c)]   (Sid: 31) Server -> Client : 789 bytes  (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 31) Connection Terminated (by Server)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 39)  PROXIED!
+[User action                 ] EndTransactionEvent upload_transaction [Web Request      (2478:2a7c)] "CONNECT mtalk.google.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 39) Client -> Server @ : 99 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (2478: 408)] Address lookup for DESKTOP-97GJLO4 = 192.168.58.1
+[Web Request      (2478:2a7c)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 40) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (2478: 408)] Request Connection: Remote Server @ 127.0.0.1:8888   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (2478:2a7c)] "CONNECT ws.infinitynewtab.com:443"   
+[Network Analyzer (2478:2a7c)]   (Sid: 41) Client -> Server @ : 238 bytes (Service=HTTP)
+[Network Analyzer (2478:2a7c)]   (Sid: 41) Server -> Client : 107 bytes 
+[Network Analyzer (2478:35d0)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Net An. Error    (2478:35d0)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake Failed!!!

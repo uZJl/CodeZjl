@@ -122,7 +122,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="2021/6/30 - 18:55:48" eTime="2021/6/30 - 18:55:48" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2021/7/1 - 16:17:50" eTime="2021/7/1 - 16:17:50" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init 概要]]></Disp>
 </NodeArgs>
@@ -133,16 +133,16 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>添加以下 Cookie: <STRONG><FONT COLOR=#00AF00>Idea-29faa48e=048d51ff-c7eb-463e-93f7-b5e28a992ef7; DOMAIN=localhost</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2021/6/30 - 18:55:48]]></Time>
+<Time><![CDATA[2021/7/1 - 16:17:50]]></Time>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Add Cookie]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Url: index.html]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>步骤失败</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2021/6/30 - 18:55:51]]></Time>
-<NodeArgs eType="General" icon="5" nRep="10" status="Failed" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>步骤已成功完成</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2021/7/1 - 16:17:51]]></Time>
+<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Url: index.html]]></Disp>
 <BtmPane vType="HTMLSNSH">
 <Path><![CDATA[\Iteration1\t1.inf]]></Path>
@@ -150,31 +150,31 @@
 </NodeArgs>
 </Step>
 <Step rID="T7">
-<Obj plainTxt="False" ><![CDATA[脚本已中止！]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>失败</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[2021/6/30 - 18:55:51]]></Time>
-<NodeArgs eType="General" icon="6" nRep="11" status="Failed" >
-<Disp><![CDATA[脚本已中止！]]></Disp>
+<Obj plainTxt="False" ><![CDATA[Submit Data: image]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>内容类型 ""DummyContentType"" 的资源已成功加载</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[2021/7/1 - 16:17:51]]></Time>
+<NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
+<Disp><![CDATA[Submit Data: image]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="2021/6/30 - 18:55:48" eTime="2021/6/30 - 18:55:51" passed="0" failed="2" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
+<Summary sTime="2021/7/1 - 16:17:50" eTime="2021/7/1 - 16:17:51" passed="2" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action 概要]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
 <Disp><![CDATA[0630Test2 迭代 1 (行 1)]]></Disp>
 </NodeArgs>
 </DIter>
 <Action rID="T8">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="2021/6/30 - 18:55:51" eTime="2021/6/30 - 18:55:51" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="2021/7/1 - 16:17:51" eTime="2021/7/1 - 16:17:51" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="14" >
 <Disp><![CDATA[vuser_end 概要]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="2021/6/30 - 18:55:48" eTime="2021/6/30 - 18:55:51" passed="0" failed="2" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
+<Summary sTime="2021/7/1 - 16:17:50" eTime="2021/7/1 - 16:17:51" passed="2" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[测试 0630Test2 概要]]></Disp>
 </NodeArgs>
 </Doc>

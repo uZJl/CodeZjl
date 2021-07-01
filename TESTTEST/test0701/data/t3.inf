@@ -1,0 +1,15 @@
+[t3]
+FileName1=t3.json
+URL1=http://localhost:8080/DBed/image
+Total=3
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_image.json
+URL2=http://localhost:8080/DBed/image
+FileName3=t3_imageShow.jpg
+URL3=http://localhost:8080/DBed/imageShow?imageId=35
+[ProtocolInfo]
+ProtocolId=QTWeb

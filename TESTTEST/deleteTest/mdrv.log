@@ -1,0 +1,48 @@
+虚拟用户脚本已于 : 2021/7/1 9:06:44 启动
+正在开始操作 vuser_init。
+Windows 8 版 LoadRunner 12.0.0 的 Web Turbo 重播; 内部版本 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+运行模式: HTML  	[MsgId: MMSG-26993]
+运行时设置文件: "F:\CodeZjl\TESTTEST\deleteTest\\default.cfg"  	[MsgId: MMSG-27141]
+正在结束操作 vuser_init。
+正在运行 Vuser...
+正在开始迭代 1。
+每个服务器的最大并发连接数: 6  	[MsgId: MMSG-26989]
+正在开始操作 Action。
+Action.c(4): web_add_cookie 已启动  	[MsgId: MMSG-26355]
+Action.c(4): web_add_cookie 已成功  	[MsgId: MMSG-26392]
+Action.c(6): web_url("index.html") 已启动  	[MsgId: MMSG-26355]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/css/amazeui.min.css”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/css/app.css”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“https://cdn.jsdelivr.net/npm/vue/dist/vue.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/jquery.min.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/amazeui.min.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/pinto.min.js”  	[MsgId: MMSG-26659]
+Action.c(6): 在 HTML“http://localhost:8080/DBed/index.html”中找到资源“http://localhost:8080/DBed/assets/js/img.js”  	[MsgId: MMSG-26659]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/image”(由参数编号 8 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=19”(由参数编号 10 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=20”(由参数编号 12 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=22”(由参数编号 14 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 正在下载资源“http://localhost:8080/DBed/imageShow?imageId=36”(由参数编号 16 指定)  	[MsgId: MMSG-26577]
+Action.c(6): 警告 -26612: 对于“http://localhost:8080/DBed/imageShow?imageId=36”，HTTP 状态代码=500 (Internal Server Error)  	[MsgId: MWAR-26612]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure  	[MsgId: MMSG-26000]
+Action.c(6): 警告 -27776: 在尝试与主机“127.0.0.1”connect 时发生 SSL 协议错误  	[MsgId: MWAR-27776]
+Action.c(6): 警告 -27762: 请求“https://cdn.jsdelivr.net/npm/vue/dist/vue.js”失败  	[MsgId: MWAR-27762]
+Action.c(6): web_url("index.html") 最高严重级别为“warning”，673632 个正文字节，2674 个标头字节，134 个分块开销字节  	[MsgId: MMSG-26387]
+Action.c(20): web_url("iplookup.php") 已启动  	[MsgId: MMSG-26355]
+Action.c(20): 正在重定向 "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json&_=1625101550531" (重定向深度为 0)  	[MsgId: MMSG-26694]
+Action.c(20): 目标位置“http://202.200.207.3”  	[MsgId: MMSG-26693]
+Action.c(20): web_url("iplookup.php") 已成功，1940 个正文字节，314 个标头字节  	[MsgId: MMSG-26386]
+Action.c(29): 集合 delete_zvous
+Action.c(31): 通知: 事务 "delete_transaction" 已启动。
+Action.c(33): web_custom_request("image") 已启动  	[MsgId: MMSG-26355]
+Action.c(33): 错误 -26612: 对于“http://localhost:8080/DBed/image?imageId=36”，HTTP 状态代码=500 (Internal Server Error)  	[MsgId: MERR-26612]
+Action.c(33): web_custom_request("image") 最高严重级别为“ERROR”，1569 个正文字节，158 个标头字节  	[MsgId: MMSG-26388]
+Action.c(33): 通知: 事务“delete_transaction”以“Fail”状态结束 (持续时间: 0.0244 浪费的时间: 0.0008)。
+Action.c(33): 通知: 事务“delete_transaction”具有 1 条错误消息。
+Action.c(33): 通知: 与事务“delete_transaction”关联的 1st 错误消息为“错误 -26612: 对于“http://localhost:8080/DBed/image?imageId=36”，HTTP 状态代码=500 (Internal Server Error)”
+正在结束操作 Action。
+正在结束迭代 1。
+正在结束 Vuser...
+正在开始操作 vuser_end。
+正在结束操作 vuser_end。
+Vuser 已终止。

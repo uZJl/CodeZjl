@@ -1,0 +1,10 @@
+POST http://update.googleapis.com/service/update2/json?cup2key=10:4138508144&cup2hreq=b1b91e17accdd244a37111c9d66b4d1f83da7a69bf882d5a241a53be86cdb519 HTTP/1.1
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Accept: */*
+Proxy-Connection: Keep-Alive
+Host: update.googleapis.com
+Content-Length: 7733
+

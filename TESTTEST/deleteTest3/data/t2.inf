@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.htm
+URL1=http://202.200.207.3/
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_geturl.html
+URL2=http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=EE87B9689F789C6B0D845A32D1BAABFA&v=10.3.0.4581&r=0000_sogou_pinyin_103a
+[ProtocolInfo]
+ProtocolId=QTWeb
