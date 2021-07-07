@@ -10,8 +10,8 @@ public class MapTest {
         /**
          * 1.
          */
-        HashMap<String, String> map = Collections.synchronizedMap(new HashMap<>());
-//        HashMap<String, String> map = new HashMap<>();
+//        HashMap<String, String> map = Collections.synchronizedMap(new HashMap<String, String>());
+        HashMap<String, String> map = new HashMap<>();
         //加载因子 初始化容量
 
         for (int i = 1; i <= 30; i++) {
