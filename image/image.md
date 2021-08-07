@@ -1,1 +1,1 @@
-https://github.com/uZJl/CodeZjl/image/image.md
+![img](http://localhost:8080/DBed/imageShow?imageId=4)
